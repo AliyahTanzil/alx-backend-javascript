@@ -1,18 +1,31 @@
 {
   "scripts": {
-    "lint": "./node_modules/.bin/eslint",
+    "lint": "eslint",
     "check-lint": "lint [0-9]*.js",
     "dev": "npx babel-node",
     "test": "jest",
-    "full-test": "./node_modules/.bin/eslint [0-9]*.js && jest"
+    "full-test": "eslint [0-9]*.js && jest"
   },
-   
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
     "babel-jest": "^18.0.0",
     "eslint": "^8.43.0",
     "jest": "^29.5.0"
-  }
-  
+  },
+  "name": "0x00-es6_basic",
+  "description": "--- noteId: \"c2599670147e11ee91f0df909b700ea7\" tags: []",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliyahTanzil/alx-backend-javascript.git"
+  },
+  "author": "Mohamed Augustin Sesay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliyahTanzil/alx-backend-javascript/issues"
+  },
+  "homepage": "https://github.com/AliyahTanzil/alx-backend-javascript#readme"
 }
