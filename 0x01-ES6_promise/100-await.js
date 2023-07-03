@@ -1,5 +1,5 @@
 // Import the necessary functions from utils.js
-const { uploadPhoto, createUser } = require('./utils')
+const { uploadPhoto, createUser } = require('./utils.js')
 
 // Define the asyncUploadUser function
 async function asyncUploadUser () {
@@ -27,3 +27,10 @@ asyncUploadUser()
   .catch((error) => {
     console.error('Error in asyncUploadUser:', error)
   })
+
+const test = async () => {
+  const value = await asyncUploadUser();
+  console.log(value);
+};
+
+test();
