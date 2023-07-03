@@ -29,8 +29,8 @@ asyncUploadUser()
   })
 
 const test = async () => {
-  const value = await asyncUploadUser();
-  console.log(value);
-};
+  const value = await asyncUploadUser()
+  console.log(value)
+}
 
-test();
+test()
