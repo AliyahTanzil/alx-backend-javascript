@@ -20,6 +20,7 @@
   "description": "",
   "version": "1.0.0",
   "main": ".eslintrc.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AliyahTanzil/alx-backend-javascript.git"
